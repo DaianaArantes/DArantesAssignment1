@@ -45,14 +45,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ControlPanelForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ControlPanelForm.Designer.cs">
+      <DependentUpon>ControlPanelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesingForm.Designer.cs">
+      <DependentUpon>DesingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlPanelForm.resx">
+      <DependentUpon>ControlPanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesingForm.resx">
+      <DependentUpon>DesingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +87,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowDorr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueDoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDoor6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueDoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowDoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenDoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenBox1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

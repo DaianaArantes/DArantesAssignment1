@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace DArantesAssignment1
 {
-    public partial class Form1 : Form
+    public partial class ControlPanelForm : Form
     {
-        public Form1()
+        public ControlPanelForm()
         {
             InitializeComponent();
+        }
+
+        private void btnDesign_Click(object sender, EventArgs e)
+        {
+            DesignForm DesignForm = new DesignForm();
+            DesignForm.Show();
         }
     }
 }
